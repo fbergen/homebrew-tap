@@ -2,9 +2,9 @@
 class Rename < Formula
   desc "Unix Rename command, written in Go"
   homepage "https://github.com/fberge/rename"
-  url "https://github.com/fbergen/rename/releases/download/v0.1.1/rename_0.1.1_Darwin_x86_64.tar.gz"
-  version "0.1.1"
-  sha256 "1d0e87a73a8dc693163bc5df4a67346dbd6fbaff04011e6348e6267a6dff2962"
+  url "https://github.com/fbergen/rename/releases/download/v0.1.2/rename_0.1.2_Darwin_x86_64.tar.gz"
+  version "0.1.2"
+  sha256 "88443eadb07bda3d2d4cfd2713defd962a830671efdf3edba26e77bb1e514de0"
 
   def install
     bin.install "rename"
